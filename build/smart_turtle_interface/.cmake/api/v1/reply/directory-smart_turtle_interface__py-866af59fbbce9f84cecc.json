@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "smart_turtle_interface__py",
+		"source" : "/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface/smart_turtle_interface__py"
+	}
+}

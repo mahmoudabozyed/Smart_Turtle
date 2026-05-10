@@ -1,0 +1,7 @@
+{
+  "package_name": "smart_turtle_interface",
+  "output_dir": "/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface/rosidl_generator_type_description/smart_turtle_interface",
+  "idl_tuples": [
+    "/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface/rosidl_adapter/smart_turtle_interface:msg/TurtleCommand.idl"
+  ]
+}

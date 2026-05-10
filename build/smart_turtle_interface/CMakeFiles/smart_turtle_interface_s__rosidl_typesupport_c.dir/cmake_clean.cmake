@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/smart_turtle_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/smart_turtle_interface/_smart_turtle_interface_s.ep.rosidl_typesupport_c.c.o"
+  "CMakeFiles/smart_turtle_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/smart_turtle_interface/_smart_turtle_interface_s.ep.rosidl_typesupport_c.c.o.d"
+  "rosidl_generator_py/smart_turtle_interface/smart_turtle_interface_s__rosidl_typesupport_c.pdb"
+  "rosidl_generator_py/smart_turtle_interface/smart_turtle_interface_s__rosidl_typesupport_c.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/smart_turtle_interface_s__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

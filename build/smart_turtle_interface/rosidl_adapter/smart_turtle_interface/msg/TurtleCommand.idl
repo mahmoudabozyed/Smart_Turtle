@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from smart_turtle_interface/msg/TurtleCommand.msg
+// generated code does not contain a copyright notice
+
+
+module smart_turtle_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "Custom command message for controlling turtle movement")
+    struct TurtleCommand {
+      @verbatim (language="comment", text=
+        "Defines the type of motion pattern" "\n"
+        "Examples: \"circle\", \"square\", \"spiral\", \"stop\"")
+      string pattern;
+
+      @verbatim (language="comment", text=
+        "Defines the linear/angular speed of movement")
+      float speed;
+    };
+  };
+};

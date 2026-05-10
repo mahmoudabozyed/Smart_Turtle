@@ -1,0 +1,4 @@
+[console_scripts]
+command_publisher = smart_turtle_pkg.command_publisher:main
+reset_node = smart_turtle_pkg.reset_node:main
+turtle_controller = smart_turtle_pkg.turtle_controller:main

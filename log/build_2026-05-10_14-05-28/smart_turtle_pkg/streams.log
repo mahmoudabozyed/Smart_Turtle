@@ -1,0 +1,23 @@
+[1.043s] Invoking command in '/home/abouzeid/smart_turtle_ws/src/smart_turtle_pkg': AMENT_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/python3.12/site-packages:/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_turtle_pkg build --build-base /home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/build install --record /home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/install.log --single-version-externally-managed install_data
+[1.336s] running egg_info
+[1.354s] writing ../../build/smart_turtle_pkg/smart_turtle_pkg.egg-info/PKG-INFO
+[1.354s] writing dependency_links to ../../build/smart_turtle_pkg/smart_turtle_pkg.egg-info/dependency_links.txt
+[1.355s] writing entry points to ../../build/smart_turtle_pkg/smart_turtle_pkg.egg-info/entry_points.txt
+[1.355s] writing requirements to ../../build/smart_turtle_pkg/smart_turtle_pkg.egg-info/requires.txt
+[1.355s] writing top-level names to ../../build/smart_turtle_pkg/smart_turtle_pkg.egg-info/top_level.txt
+[1.391s] reading manifest file '../../build/smart_turtle_pkg/smart_turtle_pkg.egg-info/SOURCES.txt'
+[1.392s] writing manifest file '../../build/smart_turtle_pkg/smart_turtle_pkg.egg-info/SOURCES.txt'
+[1.392s] running build
+[1.392s] running build_py
+[1.392s] running install
+[1.400s] running install_lib
+[1.422s] running install_data
+[1.422s] running install_egg_info
+[1.441s] removing '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/python3.12/site-packages/smart_turtle_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.441s] Copying ../../build/smart_turtle_pkg/smart_turtle_pkg.egg-info to /home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/python3.12/site-packages/smart_turtle_pkg-0.0.0-py3.12.egg-info
+[1.442s] running install_scripts
+[1.607s] Installing command_publisher script to /home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/smart_turtle_pkg
+[1.607s] Installing reset_node script to /home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/smart_turtle_pkg
+[1.607s] Installing turtle_controller script to /home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/smart_turtle_pkg
+[1.607s] writing list of installed files to '/home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/install.log'
+[1.646s] Invoked command in '/home/abouzeid/smart_turtle_ws/src/smart_turtle_pkg' returned '0': AMENT_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/python3.12/site-packages:/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_turtle_pkg build --build-base /home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/build install --record /home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/install.log --single-version-externally-managed install_data

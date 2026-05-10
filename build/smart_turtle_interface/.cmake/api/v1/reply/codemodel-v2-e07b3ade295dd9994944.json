@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-59b6363c5cec222e7f8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "smart_turtle_interface__py",
+					"jsonFile" : "directory-smart_turtle_interface__py-866af59fbbce9f84cecc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface/smart_turtle_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "smart_turtle_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_smart_turtle_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_smart_turtle_interface_egg-7b913936894efdb9d32e.json",
+					"name" : "ament_cmake_python_build_smart_turtle_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_smart_turtle_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_smart_turtle_interface-4a2da57d6bc1a5053009.json",
+					"name" : "ament_cmake_python_copy_smart_turtle_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface-97b70cae3606fb4925f0.json",
+					"name" : "smart_turtle_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface__cpp-3e1ae0e552e89376e624.json",
+					"name" : "smart_turtle_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "smart_turtle_interface__py::@c4261bd632e034e6b971",
+					"jsonFile" : "target-smart_turtle_interface__py-7f02962eaac32f8e270a.json",
+					"name" : "smart_turtle_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface__rosidl_generator_c-c3bce6dc42d4c29333dc.json",
+					"name" : "smart_turtle_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface__rosidl_generator_py-395479dfff4a37fc292a.json",
+					"name" : "smart_turtle_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface__rosidl_generator_type_description-eda04aca4c6b2da41744.json",
+					"name" : "smart_turtle_interface__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface__rosidl_typesupport_c-acf711daf7dea8fd8208.json",
+					"name" : "smart_turtle_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface__rosidl_typesupport_cpp-f6d879d644dcf2546d5a.json",
+					"name" : "smart_turtle_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface__rosidl_typesupport_fastrtps_c-6322a5097552c923c8f3.json",
+					"name" : "smart_turtle_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface__rosidl_typesupport_fastrtps_cpp-582eb81b418174756d8d.json",
+					"name" : "smart_turtle_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface__rosidl_typesupport_introspection_c-78a7e9cb86027838a93e.json",
+					"name" : "smart_turtle_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface__rosidl_typesupport_introspection_cpp-e7734baf2247df7a207e.json",
+					"name" : "smart_turtle_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface_s__rosidl_typesupport_c-ee9c7e4f985ba62eaa0a.json",
+					"name" : "smart_turtle_interface_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface_s__rosidl_typesupport_fastrtps_c-8779ed8bcca6436d7e37.json",
+					"name" : "smart_turtle_interface_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface_s__rosidl_typesupport_introspection_c-bd12c96bb325c01bd445.json",
+					"name" : "smart_turtle_interface_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_turtle_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_turtle_interface_uninstall-ef8b5a442603b80c975b.json",
+					"name" : "smart_turtle_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8264b5d44391ae0bf9e5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface",
+		"source" : "/home/abouzeid/smart_turtle_ws/src/smart_turtle_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

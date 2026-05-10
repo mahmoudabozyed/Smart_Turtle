@@ -1,0 +1,6 @@
+{
+  "package_name": "smart_turtle_interface",
+  "non_idl_tuples": [
+    "/home/abouzeid/smart_turtle_ws/src/smart_turtle_interface:msg/TurtleCommand.msg"
+  ]
+}

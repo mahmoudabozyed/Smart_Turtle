@@ -1,0 +1,20 @@
+# ============================================================
+# ROS2 Parameters File for command_publisher node
+# Author: Mahmoud Abouzeid
+# Description:
+#   This file defines runtime parameters for the node that
+#   publishes turtle movement commands.
+#
+# Parameters:
+#   - pattern: defines the turtle movement pattern
+#     (e.g., circle, square, spiral)
+#   - speed: defines the movement speed
+# ============================================================
+
+command_publisher:
+  ros__parameters:
+    # Movement pattern (circle, square, spiral, etc.)
+    pattern: circle
+
+    # Movement speed value
+    speed: 2.0

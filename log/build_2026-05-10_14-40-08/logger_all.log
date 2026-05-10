@@ -1,0 +1,269 @@
+[0.231s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.232s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bdc247a41a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bdc2486ba40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bdc2486ba40>>, mixin_verb=('build',))
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.357s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abouzeid/smart_turtle_ws'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_bringup) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_bringup) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_bringup) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_bringup) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_bringup) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_bringup) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_bringup) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_bringup) by extension 'ros'
+[0.457s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smart_turtle_bringup' with type 'ros.ament_cmake' and name 'smart_turtle_bringup'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_interface) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_interface) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_interface) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_interface) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_interface) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_interface) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_interface) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_interface) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smart_turtle_interface' with type 'ros.ament_cmake' and name 'smart_turtle_interface'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_pkg) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_pkg) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_pkg) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_pkg) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_pkg) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_pkg) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_pkg) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_turtle_pkg) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smart_turtle_pkg' with type 'ros.ament_python' and name 'smart_turtle_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.528s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/abouzeid/smart_turtle_ws/install
+[0.532s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_interface' build argument 'cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_interface' build argument 'cmake_target' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.646s] DEBUG:colcon.colcon_core.verb:Building package 'smart_turtle_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface', 'merge_install': False, 'path': '/home/abouzeid/smart_turtle_ws/src/smart_turtle_interface', 'symlink_install': False, 'test_result_base': None}
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_pkg' build argument 'cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_pkg' build argument 'cmake_target' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'smart_turtle_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg', 'merge_install': False, 'path': '/home/abouzeid/smart_turtle_ws/src/smart_turtle_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_bringup' build argument 'cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_bringup' build argument 'cmake_target' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'smart_turtle_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.649s] DEBUG:colcon.colcon_core.verb:Building package 'smart_turtle_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abouzeid/smart_turtle_ws/build/smart_turtle_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup', 'merge_install': False, 'path': '/home/abouzeid/smart_turtle_ws/src/smart_turtle_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.649s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.652s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.653s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abouzeid/smart_turtle_ws/src/smart_turtle_interface' with build type 'ament_cmake'
+[0.653s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abouzeid/smart_turtle_ws/src/smart_turtle_interface'
+[0.659s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abouzeid/smart_turtle_ws/build/smart_turtle_interface -- -j20 -l20
+[1.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abouzeid/smart_turtle_ws/build/smart_turtle_interface -- -j20 -l20
+[1.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abouzeid/smart_turtle_ws/build/smart_turtle_interface
+[1.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_turtle_interface)
+[1.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abouzeid/smart_turtle_ws/build/smart_turtle_interface
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface' for CMake module files
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface' for CMake config files
+[1.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_turtle_interface', 'cmake_prefix_path')
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/cmake_prefix_path.ps1'
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/cmake_prefix_path.dsv'
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/cmake_prefix_path.sh'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib'
+[1.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_turtle_interface', 'ld_library_path_lib')
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/ld_library_path_lib.ps1'
+[1.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/ld_library_path_lib.dsv'
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/ld_library_path_lib.sh'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/bin'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib/pkgconfig/smart_turtle_interface.pc'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib/python3.12/site-packages'
+[1.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_turtle_interface', 'pythonpath')
+[1.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/pythonpath.ps1'
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/pythonpath.dsv'
+[1.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/pythonpath.sh'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/bin'
+[1.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/package.ps1'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/package.dsv'
+[1.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/package.sh'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/package.bash'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/package.zsh'
+[1.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/colcon-core/packages/smart_turtle_interface)
+[1.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_turtle_interface)
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface' for CMake module files
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface' for CMake config files
+[1.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_turtle_interface', 'cmake_prefix_path')
+[1.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/cmake_prefix_path.ps1'
+[1.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/cmake_prefix_path.dsv'
+[1.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/cmake_prefix_path.sh'
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib'
+[1.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_turtle_interface', 'ld_library_path_lib')
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/ld_library_path_lib.ps1'
+[1.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/ld_library_path_lib.dsv'
+[1.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/ld_library_path_lib.sh'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/bin'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib/pkgconfig/smart_turtle_interface.pc'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib/python3.12/site-packages'
+[1.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_turtle_interface', 'pythonpath')
+[1.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/pythonpath.ps1'
+[1.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/pythonpath.dsv'
+[1.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/hook/pythonpath.sh'
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/bin'
+[1.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/package.ps1'
+[1.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/package.dsv'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/package.sh'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/package.bash'
+[1.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/smart_turtle_interface/package.zsh'
+[1.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/share/colcon-core/packages/smart_turtle_interface)
+[1.891s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abouzeid/smart_turtle_ws/src/smart_turtle_pkg' with build type 'ament_python'
+[1.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_turtle_pkg', 'ament_prefix_path')
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/hook/ament_prefix_path.ps1'
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/hook/ament_prefix_path.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/hook/ament_prefix_path.sh'
+[1.898s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.898s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.359s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abouzeid/smart_turtle_ws/src/smart_turtle_pkg'
+[2.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abouzeid/smart_turtle_ws/src/smart_turtle_pkg': CMAKE_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/python3.12/site-packages:/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib/python3.12/site-packages:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_turtle_pkg build --build-base /home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/build install --record /home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/install.log --single-version-externally-managed install_data
+[4.782s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg' for CMake module files
+[4.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abouzeid/smart_turtle_ws/src/smart_turtle_pkg' returned '0': CMAKE_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/python3.12/site-packages:/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface/lib/python3.12/site-packages:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_turtle_pkg build --build-base /home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/build install --record /home/abouzeid/smart_turtle_ws/build/smart_turtle_pkg/install.log --single-version-externally-managed install_data
+[4.785s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg' for CMake config files
+[4.787s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib'
+[4.787s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/bin'
+[4.787s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/pkgconfig/smart_turtle_pkg.pc'
+[4.788s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/lib/python3.12/site-packages'
+[4.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_turtle_pkg', 'pythonpath')
+[4.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/hook/pythonpath.ps1'
+[4.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/hook/pythonpath.dsv'
+[4.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/hook/pythonpath.sh'
+[4.792s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/bin'
+[4.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_turtle_pkg)
+[4.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/package.ps1'
+[4.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/package.dsv'
+[4.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/package.sh'
+[4.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/package.bash'
+[4.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/smart_turtle_pkg/package.zsh'
+[4.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg/share/colcon-core/packages/smart_turtle_pkg)
+[4.798s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abouzeid/smart_turtle_ws/src/smart_turtle_bringup' with build type 'ament_cmake'
+[4.799s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abouzeid/smart_turtle_ws/src/smart_turtle_bringup'
+[4.799s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abouzeid/smart_turtle_ws/build/smart_turtle_bringup': AMENT_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup:/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abouzeid/smart_turtle_ws/build/smart_turtle_bringup -- -j20 -l20
+[4.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abouzeid/smart_turtle_ws/build/smart_turtle_bringup' returned '0': AMENT_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup:/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abouzeid/smart_turtle_ws/build/smart_turtle_bringup -- -j20 -l20
+[4.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abouzeid/smart_turtle_ws/build/smart_turtle_bringup': AMENT_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup:/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abouzeid/smart_turtle_ws/build/smart_turtle_bringup
+[4.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_turtle_bringup)
+[4.941s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup' for CMake module files
+[4.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abouzeid/smart_turtle_ws/build/smart_turtle_bringup' returned '0': AMENT_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup:/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/abouzeid/smart_turtle_ws/install/smart_turtle_interface:/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/abouzeid/smart_turtle_ws/install/smart_turtle_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abouzeid/smart_turtle_ws/build/smart_turtle_bringup
+[4.944s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup' for CMake config files
+[4.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_turtle_bringup', 'cmake_prefix_path')
+[4.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/hook/cmake_prefix_path.ps1'
+[4.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/hook/cmake_prefix_path.dsv'
+[4.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/hook/cmake_prefix_path.sh'
+[4.948s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/bin'
+[4.948s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/lib/pkgconfig/smart_turtle_bringup.pc'
+[4.948s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/lib/python3.12/site-packages'
+[4.949s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/bin'
+[4.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/package.ps1'
+[4.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/package.dsv'
+[4.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/package.sh'
+[4.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/package.bash'
+[4.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/package.zsh'
+[4.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/colcon-core/packages/smart_turtle_bringup)
+[4.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_turtle_bringup)
+[4.954s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup' for CMake module files
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup' for CMake config files
+[4.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_turtle_bringup', 'cmake_prefix_path')
+[4.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/hook/cmake_prefix_path.ps1'
+[4.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/hook/cmake_prefix_path.dsv'
+[4.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/hook/cmake_prefix_path.sh'
+[4.958s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/bin'
+[4.958s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/lib/pkgconfig/smart_turtle_bringup.pc'
+[4.959s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/lib/python3.12/site-packages'
+[4.959s] Level 1:colcon.colcon_core.environment:checking '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/bin'
+[4.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/package.ps1'
+[4.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/package.dsv'
+[4.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/package.sh'
+[4.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/package.bash'
+[4.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/smart_turtle_bringup/package.zsh'
+[4.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abouzeid/smart_turtle_ws/install/smart_turtle_bringup/share/colcon-core/packages/smart_turtle_bringup)
+[4.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.965s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.965s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.974s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.974s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.974s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.001s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.001s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abouzeid/smart_turtle_ws/install/local_setup.ps1'
+[5.002s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abouzeid/smart_turtle_ws/install/_local_setup_util_ps1.py'
+[5.004s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abouzeid/smart_turtle_ws/install/setup.ps1'
+[5.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abouzeid/smart_turtle_ws/install/local_setup.sh'
+[5.006s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abouzeid/smart_turtle_ws/install/_local_setup_util_sh.py'
+[5.007s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abouzeid/smart_turtle_ws/install/setup.sh'
+[5.009s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abouzeid/smart_turtle_ws/install/local_setup.bash'
+[5.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abouzeid/smart_turtle_ws/install/setup.bash'
+[5.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abouzeid/smart_turtle_ws/install/local_setup.zsh'
+[5.012s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abouzeid/smart_turtle_ws/install/setup.zsh'

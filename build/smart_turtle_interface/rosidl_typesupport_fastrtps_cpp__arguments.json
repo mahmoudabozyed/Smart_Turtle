@@ -1,0 +1,19 @@
+{
+  "package_name": "smart_turtle_interface",
+  "output_dir": "/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface/rosidl_typesupport_fastrtps_cpp/smart_turtle_interface",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface/rosidl_adapter/smart_turtle_interface:msg/TurtleCommand.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/abouzeid/smart_turtle_ws/build/smart_turtle_interface/rosidl_adapter/smart_turtle_interface/msg/TurtleCommand.idl"
+  ]
+}
