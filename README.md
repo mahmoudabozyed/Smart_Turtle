@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🐢 Smart Turtle Controller
 
 > A ROS 2 Humble final project that controls a Turtlesim turtle using custom messages, parameters, and services — organized across three modular packages.
@@ -224,3 +225,6 @@ source ~/ros2_ws/install/setup.bash
 ---
 
 *Project developed as part of the ROS 2 Humble Foundations Course — Edges For Training Team*
+=======
+# Smart_Turtle
+>>>>>>> 72be94c61a23d7ff025694bed627b0a5245c1d2d
